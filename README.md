@@ -4,18 +4,31 @@ Attempting to implement the FizzBuzz algorithm in as many programming languages 
 
 ## Completed
 
- - [Javascript](javascript)
+ - [JavaScript](javascript)
  - [PHP](php)
  - [Python](python)
 
 ## To Do
 
+ - Assembly
+ - Bash
  - C
  - C++
  - C#
+ - Clojure
+ - Cobol
+ - CoffeeScript
+ - Erlang
+ - Go
+ - Haskell
  - Java
+ - Lisp
+ - Lua
+ - Pascal
  - Ruby
- - SQL
+ - Scheme
+ - TypeScript
+ - Visual Basic
  - ...
 
 [Reference](https://en.wikipedia.org/wiki/List_of_programming_languages)
