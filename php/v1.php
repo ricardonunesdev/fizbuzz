@@ -6,18 +6,11 @@ function isMult($num, $mult) {
 
 function fizzbuzz($num) {
     for ($i = 1; $i <= $num; $i++) {
-        if (isMult($i, 3)) {
-            if (isMult($i, 5)) {
-                echo 'fizzbuzz';
-            } else {
-                echo 'fizz';
-            }
-        } else if (isMult($i, 5)) {
-            echo 'buzz';
-        } else {
-            echo $i;
-        }
-        echo PHP_EOL;
+        $out = $i;
+        if (isMult($i, 3) && isMult($i, 5)) { $out = 'fizzbuzz'; }
+        else if (isMult($i, 3)) { $out = 'fizz'; }
+        else if (isMult($i, 5)) { $out = 'buzz'; }
+        echo $out . PHP_EOL;
     }
 }
 
