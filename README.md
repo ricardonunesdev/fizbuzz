@@ -1,6 +1,6 @@
-# FizzBuzz
+# 50 shades of FizzBuzz
 
-50 shades of FizzBuzz
+Attempting to implement the FizzBuzz algorithm in as many programming languages as I can.
 
 ## Completed
 
